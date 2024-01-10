@@ -1,0 +1,52 @@
+.Heading {
+    text-align: center;
+}
+body {
+    margin: 0;
+}
+
+html {
+    background: #AAB600;
+}
+
+.Home-block {
+    width: 60%;
+    position: absolute;
+    margin-left: 20%;
+    justify-content: center;
+}
+.Tekst {
+    text-align: center;
+    font-size: 20px;
+}
+.Foot-container {
+    text-align: center;
+}
+.Gl-logo {
+    margin: 0 auto;
+    height: 600px;
+    object-fit: contain;
+    justify-content: center;
+    height: 20rem;
+}
+.Cov {
+    display: flex;
+    height: 40vh;
+    width: auto;
+    align-content: center;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    
+} 
+
+.ulike-pod{
+    height: 20vh;
+    width: auto;
+}
+.Foot-container{
+    padding-top: 100px;
+    font-size: 10px;
+}
+
+
+ 

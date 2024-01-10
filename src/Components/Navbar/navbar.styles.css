@@ -1,0 +1,84 @@
+/* Navbar container */
+.Navi {
+  position: fixed;
+  top: 0;
+  right: -33.33%; /* Initially hidden to the right */
+  width: 33.33%;
+  height: 100%;
+  background-color: #000;
+  overflow-x: hidden;
+  transition: right 0.5s; /* Transition for smooth opening/closing */
+  z-index: 1;
+}
+
+/* Navbar opened state */
+.Navi.open {
+  right: 0; /* Move it to the right edge of the screen when open */
+}
+
+/* Toggle button style */
+#toggleButton {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+  background-color: transparent;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  z-index: 2; /* Ensure the button is above the navbar */
+  height: 50px;
+  width: 50px;
+}
+
+/* List styles */
+#navbarLinks {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  top: 50%; /* Vertically center the list within the navbar */
+  left: 0;
+  transform: translateY(-50%); /* Center the list vertically */
+}
+
+#navbarLinks li {
+  margin: 0;
+  padding: 0;
+}
+
+#navbarLinks li a {
+  text-decoration: none;
+  color: white;
+  display: block;
+  padding: 10px 20px;
+  transition: 0.3s; /* Transition for link hover effect */
+}
+
+#navbarLinks a {
+  font-family: 'Patrick Hand SC', cursive;
+  font-size: large;
+  font-weight: bold;
+  text-decoration: none;
+  color: black;
+  background-color: #AAB600;
+  display: block;
+  padding: 10px 20px;
+  margin: 10px;
+  text-align: center;
+  transition: 0.3s; /* Transition for link hover effect */
+  text-decoration: none;
+  border-radius: 10px;
+  
+}
+
+#navbarLinks button{
+  color: #AAB600
+}
+
+
+
+#navbarLinks a:hover {
+  background-color: #333;
+  color: whitesmoke; /* Change background color on hover */
+}

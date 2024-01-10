@@ -1,0 +1,19 @@
+
+.Gallery {
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+}
+
+.Gallery-item img {
+  width: 850px;
+  height: 400px;
+  margin: 10px;
+  transition: all 0.5s;
+  font-family: 'Patrick Hand SC', cursive;
+ 
+}
+  
+  
+  
