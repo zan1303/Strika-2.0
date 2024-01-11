@@ -1,9 +1,6 @@
 import React from 'react';
 import './Gallery.styles.css';
 
-
-// Create a require context for your image folder
-
 const importAll = (r) => {
   return r.keys().map(r);
 };
